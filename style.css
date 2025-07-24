@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(13, 9, 150);
+    font-size: larger;
+}
+
+.name,
+.heading{
+    width: fit-content;
+    padding: 8px;
+    background-color: white;
+    border: 3px solid brown;
+    margin: auto;
+    display: block;
+    color: blue;
+}
+
+.line{
+    height: 2px;
+    margin: 18px auto;
+    width: 1000px;
+    padding: 4px;
+    background: black;
+}
+
+
+.content{
+    
+    display: block;
+    width: fit-content;
+    padding: 4px;
+    border: 4px solid black;
+    background-color: whitesmoke;
+}
+
+.heading{
+    color: black;
+    margin: 40px auto 0px;
+}
+
+.container{
+    display: flex;
+    width: fit-content;
+    border: 4px solid brown;
+    margin: auto;
+    padding: 4px;
+    background-color: whitesmoke;
+    
+}
+
+.container div{
+    flex: auto;
+    text-align: center;
+    
+
+}
+
+.boxes{
+    width: 100%;
+    max-width: 1230px;
+    text-align: center;
+    border: 5px dotted black;
+    padding: 12px;
+}
