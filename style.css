@@ -62,3 +62,31 @@
     border: 5px dotted black;
     padding: 12px;
 }
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+    .boxes {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .line {
+        width: 90%;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .content {
+        width: 100%;
+        font-size: medium;
+    }
+
+    .name,
+    .heading {
+        width: 90%;
+        font-size: larger;
+    }
+}
